@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Happy and Blessed Birthday My Sole 💙</title>
+
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- MUSIC -->
+
+<audio id="music" loop>
+
+    <source src="{{ url_for('static', filename='music/happy.mp3') }}" type="audio/mpeg">
+
+</audio>
+
+
+
+
+
+
+<!-- ==========================
+     OPENING PAGE
+========================== -->
+
+
+<section id="openingPage" class="page">
+
+
+<div class="birthday-card opening-card">
+
+
+<h1>
+Happy and Blessed Birthday My Sole 💙
+</h1>
+
+
+
+<p>
+I have something special prepared for you (˶˃ ᵕ ˂˶)
+</p>
+
+
+
+
+
+<!-- ENVELOPE -->
+
+
+<div class="envelope" onclick="openQuestion()">
+
+
+
+<div class="envelope-back"></div>
+
+
+
+<div class="letter">
+
+
+💙
+
+<br>
+
+To My Sole... 
+
+
+</div>
+
+
+
+<div class="envelope-flap"></div>
+
+
+
+<div class="envelope-front"></div>
+
+
+
+</div>
+
+
+
+
+
+<p class="click-text">
+
+Click the envelope to open it >ᴗ<
+
+</p>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- ==========================
+     QUESTION PAGE
+========================== -->
+
+
+<section id="questionPage" class="page hidden">
+
+
+<div class="birthday-card question-card">
+
+
+<h1>
+
+Are You Ready For Your Surprise? 💙
+
+</h1>
+
+
+
+<p>
+WIll you be my... kidding aside, I just want to make sure you're still there mwehehe ><
+</p>
+
+
+<div class="question-buttons">
+
+
+<button id="yesBtn">
+
+Yes 💙
+
+</button>
+
+<button id="noBtn">
+
+No 🙄
+
+</button>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+<!-- ==========================
+     CAKE PAGE
+========================== -->
+
+
+<section id="cakePage" class="page hidden">
+
+
+<div class="birthday-card cake-card">
+
+
+
+<h1>
+
+Make a prayer first 💙
+
+</h1>
+
+
+
+
+<div class="cake-wrapper">
+
+
+
+<!-- BABY PHOTO -->
+
+
+<div class="baby-sticker">
+
+
+<img src="{{ url_for('static', filename='images/baby.jpg') }}">
+
+
+
+<div class="birthday-hat">
+
+🎉
+
+</div>
+
+
+
+<div class="sticker-stars">
+
+✨ ⭐ ✨
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- CAKE -->
+
+
+<div class="cake">
+
+
+
+<!-- CANDLE -->
+
+
+<div class="candle">
+
+
+<div class="flame">
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- CAKE LAYERS -->
+
+
+<div class="layer top">
+
+
+</div>
+
+
+
+<div class="layer middle">
+
+
+</div>
+
+
+
+<div class="layer bottom">
+
+
+</div>
+
+
+
+
+
+<!-- ICING -->
+
+
+<div class="icing">
+
+</div>
+
+
+
+
+
+<!-- SPRINKLES -->
+
+
+<div class="sprinkle s1"></div>
+
+<div class="sprinkle s2"></div>
+
+<div class="sprinkle s3"></div>
+
+<div class="sprinkle s4"></div>
+
+<div class="sprinkle s5"></div>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<p class="cake-note">
+
+Click the candle to blow it.
+
+</p>
+
+
+
+
+
+
+
+<!-- HIDDEN FIRST -->
+
+
+<button id="continueBtn" class="hidden">
+
+Proceed to your birthday gifts ૮₍´˶• . • ⑅ ₎ა
+
+</button>
+
+
+
+
+
+</div>
+
+
+</section>
+<!-- ==========================
+     MENU PAGE
+========================== -->
+
+
+<section id="menuPage" class="page hidden">
+
+
+<div class="birthday-card menu-card">
+
+
+<h1>
+
+Choose One 💙
+
+</h1>
+
+
+<p>
+
+I prepared three little surprises just for you.
+
+</p>
+
+
+
+
+
+<div class="menu-container">
+
+
+
+
+
+<!-- LETTER -->
+
+
+<div class="menu-box" onclick="openLetter()">
+    <div class="menu-image">💌</div>
+</div>
+
+
+
+
+
+
+
+<!-- MEMORIES -->
+
+
+<div class="menu-box" onclick="openMemories()">
+    <div class="menu-image">📸</div>
+</div>
+
+
+
+
+
+
+
+<!-- FLOWERS -->
+
+
+<div class="menu-box" onclick="openFlowers()">
+    <div class="menu-image">💐</div>
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- ==========================
+     LETTER PAGE
+========================== -->
+
+
+<section id="letterPage" class="page hidden">
+
+
+<div class="birthday-card letter-card">
+
+
+
+<h1>
+
+To My Sole 💙
+
+</h1>
+
+
+
+
+<div class="letter-paper">
+
+
+<p>
+
+Happy Birthday, Sole! 🎉🥳
+<p>
+
+Another year older, another year closer to becoming... well, wiser. 😂 
+<p>
+
+I hope today reminds you of how loved and appreciated you are by the people around you.
+<p>
+
+I just want to say thank you. You probably don't realize it, but you've been such a blessing in my life. There were times when your presence, your words, or even the simplest things you did became an encouragement to me. You may never know how much they meant, but God does. I'm genuinely thankful that He allowed our paths to cross.
+<p>
+I'm always praying for you, not just today, but even on ordinary days. I pray that God continues to bless the work of your hands, guide every decision you make, and open doors that no one can shut. May He grant you wisdom, strength, and peace as you chase the dreams, goals, and even the fantasies  you've been keeping in your heart. I hope every plan you have aligns with His perfect will because I know His plans are always greater than anything we could imagine.
+<p>
+And while we're both waiting on the prayers we've been bringing to God, I pray that He's not only preparing the blessings we're asking for but also preparing us to receive them. May He shape our hearts, strengthen our faith, and teach us to trust His timing, even when we don't understand it.
+<p>
+Please keep pursuing what God has called you to do. Don't let fear, delays, or disappointments make you forget that He has a purpose for your life. Keep choosing Him, keep serving Him, and keep growing into the person He wants you to be. It'll all be worth it.
+<p>
+Always remember that I'm here for you. Whether it's celebrating wins, listening during hard days, or just making random conversations, you can count on me. You don't have to face everything alone.
+<p>
+God bless you always, Sole. Happy Birthday once again! Enjoy your day. I'm excited to see how God will continue to work in your life. Praying that this new year of your life will be filled with His favor, joy, growth, and countless answered prayers.
+<p>
+Praying always, in all ways and I love you with the love of the Lord. ∞🤍
+
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+<button onclick="backMenu()">
+
+← Back
+
+</button>
+
+
+
+
+</div>
+
+
+</section>
+<!-- ==========================
+     MEMORY PAGE
+========================== -->
+
+
+<section id="memoryPage" class="page hidden">
+
+
+<div class="birthday-card memory-card">
+
+
+
+<h1>
+
+Our Memories 💙
+
+</h1>
+
+
+
+
+
+<!-- SELECTED MEMORY VIEW -->
+
+<div class="memory-view">
+
+
+
+<div id="memoryBg" class="memory-background">
+
+</div>
+
+
+
+
+
+<div class="memory-content">
+
+
+
+<!-- LEFT IMAGE -->
+
+
+<div class="memory-polaroid">
+
+
+<img id="memoryImage"
+src="">
+
+
+</div>
+
+
+
+
+
+
+
+<!-- RIGHT MESSAGE -->
+
+
+<div class="memory-text">
+
+
+<h2 id="memoryTitle">
+
+</h2>
+
+
+
+<p id="memoryStory">
+
+</p>
+<hr class="memory-line">
+
+<h3 class="gallery-title">
+    More Photos
+</h3>
+
+<div id="memoryGallery"
+class="memory-gallery">
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- POLAROID LIST FIRST -->
+
+<div class="polaroid-row">
+
+
+
+<img src="{{ url_for('static', filename='images/pic1.jpg') }}"
+onclick="showMemory(1)">
+
+
+
+<img src="{{ url_for('static', filename='images/pic2.jpg') }}"
+onclick="showMemory(2)">
+
+
+
+<img src="{{ url_for('static', filename='images/pic3.jpg') }}"
+onclick="showMemory(3)">
+
+
+
+<img src="{{ url_for('static', filename='images/pic4.jpg') }}"
+onclick="showMemory(4)">
+
+
+
+<img src="{{ url_for('static', filename='images/pic5.jpg') }}"
+onclick="showMemory(5)">
+
+
+
+<img src="{{ url_for('static', filename='images/pic6.jpg') }}"
+onclick="showMemory(6)">
+
+
+
+<img src="{{ url_for('static', filename='images/pic7.jpg') }}"
+onclick="showMemory(7)">
+
+
+
+<img src="{{ url_for('static', filename='images/pic8.jpg') }}"
+onclick="showMemory(8)">
+
+
+
+</div>
+
+
+
+
+
+<button onclick="backMenu()">
+
+← Back
+
+</button>
+
+
+
+
+</div>
+
+
+</section>
+
+<!-- ==========================
+     FLOWERS PAGE
+========================== -->
+
+<section id="flowerPage" class="page hidden">
+
+    <div class="birthday-card flower-card">
+
+        <h1>For You 💐</h1>
+
+        <div class="magic-bouquet">
+
+            <img
+            src="{{ url_for('static', filename='images/bouquet.png') }}"
+            class="bouquet-img"
+            alt="Bouquet">
+
+            <div class="sparkles"></div>
+
+        </div>
+
+        <p class="flower-message">
+
+            Flowers for you. I hope you like them, First timeee ko gumawa nito hehehehe ^^
+
+        </p>
+
+        <button id="finishBtn">
+
+            One Last Surprise 💙
+
+        </button>
+
+        <button onclick="backMenu()">
+
+            ← Back
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- ==========================
+     ENDING PAGE
+========================== -->
+
+
+<section id="endingPage" class="page hidden">
+
+
+
+<div class="birthday-card ending-card">
+
+
+
+
+
+<h1>
+
+Happy Birthday My Sole 💙
+
+</h1>
+
+
+
+
+
+<h2>
+
+Always remember how special you are.
+
+</h2>
+
+
+
+
+
+
+<p>
+
+Thank you for allowing me to be part of your life, Sole. I pray this would be last in life time.
+
+See you in my every yesterday, my sole, because that is what I am certain of. Praying for you always, in all ways. I love you.
+</p>
+
+
+
+
+
+<button id="restartBtn">
+
+Replay 💙
+
+</button>
+
+
+
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+</body>
+
+
+</html>
