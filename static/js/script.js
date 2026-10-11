@@ -554,8 +554,20 @@ const memories = {
             "pic8c.jpg",
             "pic8d.jpg"
         ]
-    }
+    },
+    9:{
+        image:"pic9.jpg",
+        title:"Entering 20's",
+        story:"Entering my 20's with you?!! Thank you for making my 20's memorable. Hanggang 30's na ito hanggang 50's hanggang 100's HAABBAHAHHA, hanggang maging kapatid kita sa langit BQEHWHHSHS nagrapture pala.",
 
+        gallery:[
+            "pic9.jpg",
+            "pic9a.jpg",
+            "pic9b.jpg",
+            "pic9c.jpg",
+            "pic9d.jpg"
+        ]
+    }
 };
 
 
